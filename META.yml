@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Acme-Filter-Kenny
-version: 1.00
+version: 1.01
 author:
   - Gergely Nagy <algernon@bonehunter.rulez.org>
 abstract: Kenny source filter
@@ -11,5 +11,5 @@ requires:
 provides:
   Acme::Filter::Kenny:
     file: lib/Acme/Filter/Kenny.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.24

@@ -11,7 +11,8 @@ Module::Build->new (
 	requires => {
 		perl => '5.6.0',
 		Filter::Util::Call => 0,
-	  },
+	},
+	scripts => [ 'bin/kennyfy' ],
 	dist_author => 'Gergely Nagy <algernon@bonehunter.rulez.org>',
 	create_readme => 1,
 	dist_version_from => "lib/Acme/Filter/Kenny.pm",

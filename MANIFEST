@@ -1,3 +1,4 @@
+bin/kennyfy
 Build.PL
 Changes
 COPYING
@@ -9,6 +10,7 @@ META.yml
 README
 SIGNATURE
 t/01.t
+t/02.t
 t/pod.t
 
 SIGNATURE    Added here by Module::Build
