@@ -1,0 +1,21 @@
+NAME
+    Acme::Filter::Kenny - Kenny source filter
+
+SYNOPSIS
+      use Acme::Filter::Kenny;
+
+DESCRIPTION
+    This source filter translates code in Kenny-speak back to normal perl
+    before actually parsing the rest of the stream.
+
+EXAMPLE
+      use Acme::Filter::Kenny;
+      pfmpffmffpppfmp "Mfpmpppmfpmfppf fppppfpffpmfmpm!\ppp";
+
+    This will print "Hello World!".
+
+AUTHOR
+    Gergely Nagy, algernon@bonehunter.rulez.org
+
+    Based on Jan-Pieter Cornets signature version.
+
